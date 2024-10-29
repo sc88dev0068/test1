@@ -1,0 +1,45 @@
+<mxfile host="65bd71144e">
+    <diagram name="Page-1" id="1jqzN5zI4VSdtmC6dyVb">
+        <mxGraphModel dx="1879" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="1aPTGN9PgodOT1uq9Q_Y-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="1aPTGN9PgodOT1uq9Q_Y-1" target="1aPTGN9PgodOT1uq9Q_Y-2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="1aPTGN9PgodOT1uq9Q_Y-1" value="Annotations in Three js" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="10" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="1aPTGN9PgodOT1uq9Q_Y-2" value="Raycast a ray from mouse pointer on to the model" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="170" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="1aPTGN9PgodOT1uq9Q_Y-4" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;instance an object / sprite / html element css 2d on the intersection point&lt;div&gt;Prefer CSS 2D renderer&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;*Should be able to select CSS 2D elements&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="260" y="320" width="220" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="1aPTGN9PgodOT1uq9Q_Y-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.459;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="1aPTGN9PgodOT1uq9Q_Y-2" target="1aPTGN9PgodOT1uq9Q_Y-4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="-nJTjBSZszZqVfguQEqd-2" value="Annotations in Three js&lt;div&gt;&lt;br&gt;&lt;div&gt;*User Clicks on the model&lt;/div&gt;&lt;div&gt;*The marker gets added to the model&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="10" width="220" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="create CSS 2D renderer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-20" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="40" y="290" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="create CSS2D objects&lt;br&gt;add html element to css2D object" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-75" y="120" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="add CSS2D object to the scene" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-20" y="230" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

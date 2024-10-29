@@ -1,0 +1,4 @@
+gltf-transform optimize Burke-Class-DDG-52-USS-Barry-v02.glb Burke-Class-DDG-52-USS-Barry-v02_opt2.glb --compress draco --flatten true --join true --palette true --texture-compress auto --weld true --simplify false
+
+gltf-transform optimize Burke-Class-DDG-52-USS-Barry-v05.glb Burke-Class-DDG-52-USS-Barry-v05_optimized.glb
+ --compress draco --flatten false --join false --palette true --texture-compress auto --weld false --simplify false

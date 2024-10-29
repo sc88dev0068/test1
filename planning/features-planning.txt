@@ -1,0 +1,36 @@
+#colors for sections of the 3D model
+    *seperate the ship model in Blender
+	*export it as gltf
+	
+	
+#user should right click on the section and change the color.
+	colors - vertex colors 
+	Why vertex-colors 
+	multiple vertex-colors work even with multiple materials?
+	performance??
+	
+	
+	1. Assign vertex colors in blender and test it in three js
+	2. Right click on the section and user should be able to change the vertex colors of a section
+		
+	
+links - https://stackoverflow.com/questions/10330342/threejs-assign-different-colors-to-each-vertex-in-a-geometry
+		https://discourse.threejs.org/t/is-it-possible-to-dynamically-change-only-a-portion-of-a-material-attached-to-a-plane/49416/5
+		
+	
+*Test with random vertex colors
+assigning vertex colors are slow
+
+*outline  pass not working with webGPU yet
+
+##############################################################
+*try
+	select the section using ray cast
+	set a new material to the new section/its children
+	
+*Seperate object and materials for each sections
+	select the section using raycast
+	set a material color overlay by right click
+	export the data and import the data
+	{section name : color overlay}
+	
